@@ -575,6 +575,15 @@ header.sticky{
 }
 
 @media (max-width: 920px){
+    .home-text h1{
+        font-size: 3rem;
+        font-weight: 500;
+        margin: 0 0 5px;
+    }
+    .home-text h3{
+        font-size: 2rem;
+        font-weight: 400;
+
     .about{
         grid-template-columns: 1fr;
     }
