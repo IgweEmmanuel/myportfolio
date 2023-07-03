@@ -643,14 +643,21 @@ header.sticky{
         align-items: center;
         gap: 1.5rem;
         margin-top: 5rem;
+        padding: 7%;
     }
     .home{
-        padding: 0 10px;
+        padding: 0 10%;
     }
     .end{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(10px, auto));
+        position: relative;
     }
+    .top {
+        position: relative;
+        left: right;
+        z-index: 1000;
 
+    }
 }
     
