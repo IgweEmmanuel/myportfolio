@@ -589,9 +589,10 @@ header.sticky{
 
     .about{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
         align-items: center;
-        justify-content: center;
+        gap: 1.5rem;
+        margin-top: 5rem;
     }
     .about-img{
         text-align: center;
@@ -604,10 +605,10 @@ header.sticky{
     }
     .contact{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
         align-items: center;
-        justify-content: center;
-
+        gap: 1.5rem;
+        margin-top: 5rem;
     }
 }
 
