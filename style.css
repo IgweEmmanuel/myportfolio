@@ -587,13 +587,6 @@ header.sticky{
         font-size: 2rem;
         font-weight: 400;
 
-    .about{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-        align-items: center;
-        gap: 1.5rem;
-        margin-top: 5rem;
-    }
     .about-img{
         text-align: center;
         order: 2;
@@ -602,13 +595,6 @@ header.sticky{
         width: 100%;
         height: auto;
         max-width: 100%;
-    }
-    .contact{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-        align-items: center;
-        gap: 1.5rem;
-        margin-top: 5rem;
     }
 }
 
@@ -644,4 +630,19 @@ header.sticky{
     .navlist.open{
         top: 100%;
     }
+    .about{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+        align-items: center;
+        gap: 1.5rem;
+        margin-top: 5rem;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+        align-items: center;
+        gap: 1.5rem;
+        margin-top: 5rem;
+    }
 }
+    
