@@ -633,6 +633,7 @@ header.sticky{
     .about{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+        justify-content: center;
         align-items: center;
         gap: 1.5rem;
         margin-top: 5rem;
@@ -641,6 +642,7 @@ header.sticky{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, auto));
         align-items: center;
+        justify-content: center;
         gap: 1.5rem;
         margin-top: 5rem;
         padding: 7%;
@@ -651,13 +653,7 @@ header.sticky{
     .end{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(10px, auto));
-        position: relative;
-    }
-    .top {
-        position: relative;
-        left: right;
-        z-index: 1000;
-
+        align-items: center;
+        justify-content: space-around;
     }
 }
-    
