@@ -644,5 +644,13 @@ header.sticky{
         gap: 1.5rem;
         margin-top: 5rem;
     }
+    .home{
+        padding: 0 10px;
+    }
+    .end{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
     
