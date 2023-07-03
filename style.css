@@ -262,7 +262,7 @@ header.sticky{
 
 .services-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     align-items: center;
     gap: 1.5rem;
     margin-top: 5rem;
