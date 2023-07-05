@@ -109,7 +109,7 @@ h2 span{
     object-fit: cover;
 }
 .slide{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     display: flex;
 }
 
@@ -648,6 +648,7 @@ header.sticky{
     }
     .home{
         padding: 0 10%;
+        margin-bottom: 0;
     }
     .end{
         display: grid;
