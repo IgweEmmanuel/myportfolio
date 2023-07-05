@@ -17,7 +17,7 @@
     --big-font: 4rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
-    --top-margin: 20px;
+    --top-margin: 35px;
 
 }
 
@@ -636,7 +636,6 @@ header.sticky{
         justify-content: center;
         align-items: center;
         gap: 1.5rem;
-        padding-top: -20px;
     }
     .contact{
         display: grid;
