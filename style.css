@@ -655,4 +655,10 @@ header.sticky{
         align-items: center;
         justify-content: space-around;
     }
+    .button{
+        margint-top: 10px;
+    }
+    .home h1, h2{
+        margin-top: 10px;
+    }
 }
