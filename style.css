@@ -109,7 +109,7 @@ h2 span{
     object-fit: cover;
 }
 .slide{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
 }
 
@@ -656,9 +656,9 @@ header.sticky{
         justify-content: space-around;
     }
     .button{
-        margin-top: 1.5rem;
+        margin-top: 2rem;
     }
     .home-text h1, h2{
-        margin-top: 1.5rem;
+        margin-top: 2rem;
     }
 }
