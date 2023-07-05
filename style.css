@@ -656,9 +656,9 @@ header.sticky{
         justify-content: space-around;
     }
     .button{
-        margin-top: 10px;
+        margin-top: 1.5rem;
     }
     .home-text h1, h2{
-        margin-top: 10px;
+        margin-top: 1.5rem;
     }
 }
