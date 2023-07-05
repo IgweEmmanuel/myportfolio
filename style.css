@@ -636,7 +636,7 @@ header.sticky{
         justify-content: center;
         align-items: center;
         gap: 1.5rem;
-        padding-top: 2px;
+        padding-top: -20px;
     }
     .contact{
         display: grid;
